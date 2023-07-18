@@ -1,0 +1,46 @@
+@media(max-width :770px) {
+    .nav-menu1 {
+        display: none;
+    }
+}
+
+@media(max-width :480px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .textwidget {
+        width: 100%;
+        text-align: center;
+        border-bottom: 2px solid #272727;
+        padding-bottom: 15px;
+    }
+
+    .rs-icons {
+        text-align: center;
+    }
+
+    .dl-fl {
+        justify-content: center;
+    }
+
+    .textwidget {
+        margin-top: 20px;
+    }
+
+    .rs-contact ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rs-contact {
+        display: none;
+    }
+
+    .rs-icons {
+        justify-content: center;
+    }
+}

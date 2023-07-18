@@ -1,0 +1,182 @@
+@media(max-width :1300px) {
+    .show-user {
+        display: none;
+
+    }
+
+    .show-name {
+        display: none;
+    }
+
+    .st-user {
+        padding: 8px 11px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .fa-caret-down {
+        margin-left: 0;
+    }
+}
+
+
+@media(max-width :770px) {
+    .message {
+        display: block;
+    }
+
+    .vc-row-inner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .vc_col-sm-3 {
+        width: 100%;
+    }
+
+    .vc-row-inner {
+        height: 100%;
+    }
+
+
+
+
+    .rp-hdr {
+        display: block !important;
+    }
+
+    .rs-logo {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .fa-cart-shopping {
+        background-color: #fff !important;
+        color: #000 !important;
+    }
+
+    .rs-contact {
+        width: 100%;
+        padding: 15px;
+        border-top: 1px solid #f0f0f0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-navbar {
+        display: none !important;
+    }
+
+    .navbar-list>.navbar-list-inner {
+        display: none;
+    }
+
+    .rp-navbar-list {
+        width: 100%;
+        display: flex !important;
+        justify-content: space-between;
+        color: #fff;
+        padding: 0 3%;
+
+    }
+
+    .navbar-list {
+        width: 100%;
+        margin: 15px 0;
+        color: #fff;
+        font-size: 18px;
+
+    }
+
+    .rp-navbar-list a {
+        color: #fff;
+    }
+
+    a {
+        color: #000;
+    }
+
+    .sty-navbar-a {
+        border-bottom: 1px solid #202020;
+        background-color: #121212;
+    }
+
+    .fa-house {
+        color: #fff;
+    }
+
+    .fa-user {
+        background-color: #fff !important;
+        color: #000 !important;
+    }
+
+    .hover-i:hover {
+        background: #03e9f4 !important;
+        color: #fff !important;
+        border-radius: 5px;
+        box-shadow: 0 0 5px #03e9f4,
+            0 0 25px #03e9f4,
+            0 0 50px #03e9f4,
+            0 0 100px #03e9f4;
+    }
+
+    .list-rp-inner {
+        width: 85%;
+    }
+
+    .list-rp-inner h2 {
+        background-color: #000;
+        color: #ffc341;
+    }
+
+    .list-rp-inner li a:hover {
+        background-color: #000;
+    }
+
+    .nav-navbar1 {
+        display: block;
+        width: 100%;
+        border-top: 1px solid #f0f0f0;
+    }
+
+    .d-n {
+        display: none;
+    }
+
+    .search {
+        width: 100%;
+        background-color: #fff;
+        font-size: 14px;
+        height: 55px;
+        border: none;
+        text-align: center;
+        font-weight: bold;
+        outline: none;
+        transition: none;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -ms-transition: none;
+        -o-transition: none;
+
+    }
+
+
+
+    .textwidget {
+        width: auto;
+    }
+
+    .input-gmail input {
+        font-size: 8px;
+    }
+
+    .rs-contact {
+        display: none;
+    }
+
+
+}

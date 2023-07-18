@@ -1,0 +1,263 @@
+body {
+    color: #141414;
+}
+
+.page-detail {
+    background-color: #fff;
+}
+
+.rs-navbar-b {
+    min-height: 49px;
+    border-bottom: 2px solid #ece8e6;
+    margin-bottom: 30px;
+    background-color: #fff;
+}
+
+.navbar-b-inner {
+    line-height: 3.4;
+    text-decoration: none;
+}
+
+.delimiter {
+    margin: 0 10px;
+}
+
+.fa-caret-right {
+    color: #141414;
+}
+
+.product-detail {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-detail-summary,
+.product-detail-img {
+    width: 48%;
+}
+
+.product-detail-img img {
+    width: 100%;
+}
+
+
+
+.summary-title {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #141414;
+    font-weight: bold;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.pr-price-main {
+    margin: 25px 0;
+}
+
+.pr-price-main del {
+    font-size: 16px;
+    color: #707070;
+    font-weight: normal;
+}
+
+.pr-price-main span {
+    font-size: 22px;
+}
+
+.pr-price-main span {
+    font-size: 22px;
+}
+
+.car-price {
+    font-weight: bold;
+    color: #333;
+}
+
+.rs-pr {
+    margin-bottom: 30px;
+}
+
+.rs-pr strong {
+    color: #333;
+}
+
+.detail-list-size {
+    display: flex;
+}
+
+.detail-size-item {
+    color: #000;
+    background: #f0f0f0;
+    padding: 4.5px 4px;
+    text-decoration: none;
+    min-width: 39px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.size-active {
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+.rs-pr-contact-inner {
+    margin-bottom: 30px;
+    background-color: #ebebeb;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.phones {
+    width: 50%;
+    padding: 15px 10px;
+}
+
+.phones .icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    border-radius: 50%;
+}
+
+.fa-mobile-screen-button {
+    font-size: 25px;
+    color: #fff;
+}
+
+.info-phone,
+.info {
+    display: block;
+}
+
+.info {
+    margin-left: 15px;
+}
+
+.info a {
+    color: #337ab7;
+}
+
+.info a:hover {
+    text-decoration: underline;
+}
+
+.rs-pr-contact {
+    margin-top: 25px;
+}
+
+.add-to-cart {
+    border: none;
+    display: inline-block;
+    width: 100%;
+    background-color: #ffc341;
+    color: #333;
+    font-weight: bold;
+    padding: 15px 0;
+}
+
+.add-to-cart:hover {
+    background-color: #935386;
+    color: #fff;
+}
+
+.info-product-title {
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #141414;
+    padding: 18px 15px 18px;
+    font-weight: bold;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.info-product-title::after {
+    content: "";
+    background-color: #ffc341;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+}
+
+.info-product-inner p {
+    margin-bottom: 10px;
+}
+
+.hv {
+    margin-right: 5px;
+    color: blue;
+}
+
+.hv:hover,
+.hv:focus {
+    color: #23527c;
+    text-decoration: underline;
+
+}
+
+
+.wp-caption {
+    width: 60%;
+    margin: 10px auto;
+    background: #fff;
+}
+
+.wp-caption-inner {
+    max-width: 96%;
+    padding: 5px 3px 10px;
+    text-align: center;
+    border: 1px solid #f0f0f0;
+    margin-bottom: 10px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 95%;
+    padding: 0;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-size: 30px !important;
+    color: #000 !important;
+}
+
+.slick-prev,
+.slick-next {
+    width: auto !important;
+    height: auto !important;
+}
+
+.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+.loadding {
+    height: 70vh;
+    background-color: #fff;
+}
+
+.loader-inner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

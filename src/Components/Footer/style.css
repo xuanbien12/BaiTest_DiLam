@@ -1,0 +1,73 @@
+#footer {
+    margin-top: 45px;
+    background-color: #191919;
+    color: #fff;
+}
+
+.footer {
+    padding: 45px 0;
+    display: grid;
+    grid-template-columns: 31% 13% 13% 13% 30%;
+}
+
+.ft-logo a img {
+    color: fff;
+}
+
+.rs-icons {
+
+    display: flex;
+    align-items: center;
+}
+
+.rs-icons ul li a svg {
+    color: #fff;
+}
+
+.rs-icons li a {
+    font-size: 16px;
+    color: #fff;
+    margin-right: 12px;
+}
+
+.input-gmail {
+    margin-top: 25px;
+}
+
+.input-gmail-i {
+    width: 100%;
+    height: 35px;
+    padding: 0 15px;
+    border-radius: 20px;
+    border: 0;
+    outline: none;
+    font-size: 12px;
+}
+
+.fa-envelope {
+    margin-left: -35px;
+    color: #000;
+}
+
+.nav-menu1 {
+    padding: 0 15px;
+}
+
+.menu-ft li a {
+    padding: 8px 0;
+    display: block;
+    color: #fff;
+}
+
+.ft-hr {
+    border-bottom: 1px solid #272727;
+}
+
+.footer-inner-b p {
+    text-align: center;
+    color: #fff;
+}
+
+.footer-inner-b {
+    padding: 15px 0;
+}

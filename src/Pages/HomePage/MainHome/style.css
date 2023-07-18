@@ -1,0 +1,128 @@
+.main-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-page {
+    padding-top: 10px;
+}
+
+.row-item {
+    padding: 5px;
+}
+
+.row-item-img {
+
+    width: 100%;
+}
+
+
+
+.wpd-wrapper {
+    width: 100%;
+    position: absolute;
+    color: #ffff;
+    left: 0;
+    text-align: center;
+
+    top: calc(100% - 5em);
+    -webkit-transition: all 0.615s cubic-bezier(0.19, 1, 0.22, 1);
+    transition: all 0.615s cubic-bezier(0.19, 1, 0.22, 1);
+    padding: 15px;
+}
+
+.wpd-wrapper-title {
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.wpd-text {
+    padding-bottom: 18px;
+    border-bottom: 2px solid #ffff;
+}
+
+.row-item:hover .wpd-wrapper {
+    top: 20%;
+}
+
+.row-item:hover .row-item-ab {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    opacity: 0.7;
+    color: #ffff;
+}
+
+
+
+.row-item-inner {
+    position: relative;
+    height: 100%;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.bg-row-1 {
+    background-image: url(http://runningstore.vn/wp-content/uploads/2020/04/store-running.jpg?id=9899)
+}
+
+.bg-row-2 {
+    background-image: url(http://runningstore.vn/wp-content/uploads/2016/02/12353380_1650844908500875_1677437000_n.jpg?id=7354)
+}
+
+.bg-row-3 {
+    background-image: url(http://runningstore.vn/wp-content/uploads/2020/04/Nike-running.jpg?id=9902)
+}
+
+.bg-row-4 {
+    background-image: url(http://runningstore.vn/wp-content/uploads/2020/04/Adidas-boost.jpg?id=9898)
+}
+
+.bg-row-5 {
+    background-image: url(http://runningstore.vn/wp-content/uploads/2020/04/pegasus.jpg?id=9900)
+}
+
+.bg-row-6 {
+    background-image: url(http://runningstore.vn/wp-content/uploads/2016/02/3.jpg?id=7360)
+}
+
+.bg-row-7 {
+    background-image: url(http://runningstore.vn/wp-content/uploads/2018/12/trainning.jpg?id=8734)
+}
+
+.bg-row-8 {
+    background-image: url(http://runningstore.vn/wp-content/uploads/2016/01/giay-nam.jpg?id=7010)
+}
+
+.bg-row-9 {
+    background-image: url(http://runningstore.vn/wp-content/uploads/2016/02/competition-background1.jpg?id=7362)
+}
+
+.bg-row-10 {
+    background-image: url(http://runningstore.vn/wp-content/uploads/2016/02/sales_poster.jpg?id=7364)
+}
+
+.wpd-wrapper-bg {
+    width: 100%;
+    background-image: url(http://runningstore.vn/wp-content/uploads/2020/04/Nike-running.jpg?id=9902);
+
+
+}
+
+.pd {
+    padding: 125px;
+}
+
+.row-item-1 {
+    width: 25%;
+}
+
+.row-item-2 {
+    width: 50%;
+}

@@ -1,0 +1,129 @@
+@media (max-width :990px) {
+    .cart-inner {
+        flex-direction: column;
+    }
+
+    .cart-content {
+        width: 100% !important;
+        margin-right: 0;
+        padding: 20px;
+    }
+
+    .widget-area {
+        width: 100% !important;
+    }
+}
+
+@media (max-width :770px) {
+    .product-detail {
+        flex-direction: column;
+    }
+
+    .Cart-table thead {
+        display: none;
+        float: right;
+
+    }
+
+    .Cart-table tbody tr {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+
+
+    .Cart-table tbody tr td {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+        position: relative;
+
+    }
+
+    .cart-product-thumbnail {
+        display: none !important;
+    }
+
+    .product-detail-img {
+        width: 100%;
+    }
+
+    .cart-product-name::before {
+        content: "Name :";
+        position: absolute;
+        left: 5%;
+        top: 25%;
+        font-weight: bold;
+    }
+
+    .cart-change-sl {
+        position: absolute;
+        right: 8px;
+    }
+
+    .cart-product-quantity::before {
+        content: "Số Lượng :";
+        position: absolute;
+        left: 5%;
+        top: 35%;
+        font-weight: bold;
+    }
+
+    .cart-product-subtotal::before {
+        content: "Tổng tiền :";
+        position: absolute;
+        left: 5%;
+        top: 35%;
+        font-weight: bold;
+    }
+
+    .cart-product-remove {
+        align-items: flex-start !important;
+        margin-left: 20px;
+    }
+
+    .cart-product-price {
+        padding: 10px 25px !important;
+    }
+
+    .cart-product-price::before {
+        content: "Giá :";
+        position: absolute;
+        left: 5%;
+        top: 25%;
+        font-weight: bold;
+    }
+
+    .product-detail-summary {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .wp-caption {
+        width: 100%;
+    }
+
+    .cart_totals {
+        width: 100% !important;
+    }
+
+    .shop_table tr td {
+        text-align: right;
+
+    }
+
+    .totals-price {
+        margin-right: 20px;
+    }
+
+    .cart-product-name a {
+        max-width: 75%;
+    }
+
+    .container {
+        padding-left: 3% !important;
+        padding-right: 3% !important;
+    }
+}

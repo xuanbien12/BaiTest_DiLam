@@ -1,0 +1,27 @@
+@media (max-width :1200px) {
+    .container-login {
+        width: 100% !important;
+    }
+
+
+}
+
+@media (max-width :770px) {
+
+    .sigup-from,
+    .form-login {
+        width: 400px !important;
+        padding: 40px !important;
+    }
+}
+
+@media (max-width :450px) {
+
+    .sigup-from,
+    .form-login {
+        width: 90% !important;
+        padding: 20px !important;
+    }
+
+
+}
