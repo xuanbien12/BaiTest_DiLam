@@ -50,7 +50,7 @@ const LoginPage = () => {
                 <div className="login-inner">
                     <form className="form form-login" onSubmit={handleLogin}>
                         <h2 className="title-form-login">Đăng nhập</h2>
-                        <Input className="login-input" placeholder="Tên đăng nhập" name="name" value={valueLogin.name} onChangeInput={handleChangInputLogin} />
+                        <Input className="login-input" placeholder="Tên đăng nhập" type="text" name="name" value={valueLogin.name} onChangeInput={handleChangInputLogin} />
                         <Input className="login-input" placeholder="Mật khẩu" type="password" name="password" value={valueLogin.password} onChangeInput={handleChangInputLogin} />
                         <Button className="btn-login"  >Đăng nhập</Button>
                         {success && <h5 >Đăng ký tài khoản thành công <i className="fa-solid fa-circle-check"></i></h5>}

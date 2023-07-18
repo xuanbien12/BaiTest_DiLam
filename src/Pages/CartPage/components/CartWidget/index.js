@@ -34,17 +34,17 @@ const CartWidget = () => {
                         </Link>
 
                     </li>
-                    <li to="/nike">
-                        <Link>Nike</Link>
+                    <li >
+                        <Link to="/nike">Nike</Link>
                     </li>
-                    <li to="/portfolio">
-                        <Link>Danh mục</Link>
-                    </li>
-                    <li to="/asics">
-                        <Link>asics</Link>
+                    <li>
+                        <Link to="/portfolio">Danh mục</Link>
                     </li>
                     <li >
-                        <Link>Tin tức</Link>
+                        <Link to="/asics">asics</Link>
+                    </li>
+                    <li >
+                        <Link to="">Tin tức</Link>
                     </li>
                 </ul>
             </div>

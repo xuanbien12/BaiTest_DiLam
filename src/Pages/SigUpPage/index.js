@@ -58,7 +58,7 @@ const SigUpPage = () => {
                 <div className="sigup-inner">
                     <form className="sigup-from" onSubmit={handleGetSigUp}  >
                         <h2 className="title-form-login">Đăng ký</h2>
-                        <Input className="login-input" placeholder="Tên đăng nhập" name="name" value={valueInput.name} onChangeInput={handleChangeInputSigup} />
+                        <Input className="login-input" placeholder="Tên đăng nhập" name="name" type="text" value={valueInput.name} onChangeInput={handleChangeInputSigup} />
                         <Input className="login-input" placeholder="Số điện thoại" name="phone" type="number" value={valueInput.phone} onChangeInput={handleChangeInputSigup} />
                         <Input className="login-input" placeholder="Mật khẩu" name="password" type="password" value={valueInput.password} onChangeInput={handleChangeInputSigup} />
                         <Input className="login-input" placeholder="Nhập lại mật khẩu" name="passwordAgain" type="password" value={valueInput.passwordAgain} onChangeInput={handleChangeInputSigup} />
